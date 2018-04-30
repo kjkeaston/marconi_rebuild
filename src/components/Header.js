@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './marconi_logo.png';
 
-
 class Header extends Component {
   constructor() {
     super();
@@ -11,8 +10,8 @@ class Header extends Component {
   render() {
     return (
       <div className="row app-header">
-        <div className="col-sm-6">
-          <h1 className="text-left"><img src={logo} alt="logo" />Marconi</h1>
+        <div className="col-sm-6 site-padding">
+          <h1 className="text-left"><img src={logo} alt="logo"/>MARCONI</h1>
         </div>
         <div className="col-sm-6">
           <ul className="navigation">

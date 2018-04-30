@@ -1,3 +1,8 @@
+.site-padding {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
 .app-header {
   background-color: #151f1f;
   height: 150px;
@@ -5,11 +10,34 @@
   color: white;
 }
 
+.language-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 /*Programmable Ethernet*/
 .programmable-ethernet {
   background-color: #151f1f;
   color: white;
   padding-bottom: 115px;
+}
+
+.ethernet-cloud-img-col {
+  padding-right: 20px;
+}
+
+.programmable-ethernet-col {
+  padding-left: 30px;
+}
+
+.programmable-ethernet-title {
+  padding-bottom: 10px;
+
+}
+
+.programmable-ethernet-text {
+  padding-bottom: 100px;
 }
 
 .navigation li{
@@ -29,11 +57,11 @@
 }
 
 .git-btn:hover {
-  border-color: #E45600;
-  background: #E45600;
+  border-color: #e45600;
+  background: #e45600;
 }
 
-.sample-code-btn {
+.outline-btn {
   border-radius: 100px;
   left: 613px;
   top: 504px;
@@ -42,25 +70,126 @@
   border-color: #fb6900;
 }
 
-.sample-code-btn:hover{
+.outline-btn:hover{
   border-color: #fb6900;
   background:#fb6900;
 }
 
 /*Core Technology*/
-.core-tech {
+.core-tech-col {
+  background-color: #f0f0f0;
+}
+
+.site-section-titles {
   font-family: Raleway;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 48px;
-    color: rgb(0, 180, 204);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  color: rgb(0, 180, 204);
+  padding-top: 75px;
+  padding-bottom: 40px;
 }
 
 .core-tech-lead-text {
   color: rgb(52, 56, 56);
-    font-size: 28px;
-    font-family: Raleway;
-    font-weight: 400;
-    font-style: normal;
+  font-size: 28px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 50px;
+  text-align: left;
 }
 
+.core-tech-section-row {
+  padding-bottom: 100px;
+}
+
+.core-tech-section-titles {
+  color: #00b4cc
+}
+
+.whitepaper-btn {
+  border-radius: 100px;
+  left: 613px;
+  top: 504px;
+  width: 260px;
+  height: 50px;
+  border-color: #fb6900;
+  color:black;
+}
+
+.whitepaper-btn:hover{
+  border-color: #fb6900;
+  background:#fb6900;
+  color: black;
+}
+
+/*Use Cases*/
+.use-cases-row {
+  background-color: #353838;
+  padding-bottom: 40px;
+}
+
+.use-cases-use-titles {
+  color: #00b4cc
+}
+
+.use-cases-use-texts {
+  color: white;
+  padding: 10px 30px 20px 30px;
+}
+
+.plus-sign {
+  color: #fb6900;
+  padding-right: 10px;
+}
+
+.use-cases-network-col {
+  padding-left: 190px;
+}
+
+.use-cases-security-col {
+  padding-left: 70px;
+  padding-right: 100px;
+}
+
+/*Developers*/
+.developers {
+  background-color: #f0f0f0;
+  padding-bottom: 75px;
+}
+
+.developers-text {
+  padding-bottom: 50px;
+}
+
+/*Footer*/
+.footer {
+  background-color: #353838;
+  color: #00b4cc;
+  height: 261px;
+  border-top: 10px solid #00b4cc;
+}
+
+.footer-logo-col {
+  padding-left: 200px;
+  padding-top: 30px;
+}
+
+.footer-logo {
+  padding-bottom: 10px;
+}
+
+.footer-links-row {
+  padding-top: 30px;
+  text-align: left;
+}
+
+.footer-links li {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.footer-list-with-three {
+  padding-left: 215px;
+}
