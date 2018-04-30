@@ -1,28 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
+.app-header {
+  background-color: #151f1f;
   height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+/*Programmable Ethernet*/
+.programmable-ethernet {
+  background-color: #151f1f;
+  color: white;
+  padding-bottom: 115px;
 }
 
-.App-intro {
-  font-size: large;
+.navigation li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 60px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.git-btn {
+  border-radius: 100px;
+  left: 613px;
+  top: 504px;
+  width: 260px;
+  height: 50px;
+  background: #fb6900;
+  border-color: #fb6900;
 }
+
+.git-btn:hover {
+  border-color: #E45600;
+  background: #E45600;
+}
+
+.sample-code-btn {
+  border-radius: 100px;
+  left: 613px;
+  top: 504px;
+  width: 260px;
+  height: 50px;
+  border-color: #fb6900;
+}
+
+.sample-code-btn:hover{
+  border-color: #fb6900;
+  background:#fb6900;
+}
+
+/*Core Technology*/
+.core-tech {
+  font-family: Raleway;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: rgb(0, 180, 204);
+}
+
+.core-tech-lead-text {
+  color: rgb(52, 56, 56);
+    font-size: 28px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+}
+
